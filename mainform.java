@@ -3,7 +3,6 @@ package Kartenspiel;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.Random;
 
 public class mainform {
     private JPanel mainPanel;
@@ -26,7 +25,6 @@ public class mainform {
 
     Karte Kartenspiel[] = new Karte[52];
     int pos = 0;
-
     void shuffle(int [] Karte) {
         for (int i = 0; i < Karte.length; i++) {
             int index = (int) (Math.random() * Karte.length);
@@ -50,8 +48,6 @@ public class mainform {
         return Karte;
     }
 */
-
-
     public mainform()
     {
         for (int i=0; i < 52; i++)
@@ -64,8 +60,7 @@ public class mainform {
             {
                 KarteLegen(); //shuffle();
             }
-        }
-        );
+        });
     }
 
     public static void main(String[] args)
@@ -85,11 +80,9 @@ public class mainform {
             int nr = r.nextInt(52);
             java.net.URL url=getClass().getResource("./res/card"+nr+".png");
  */
-
             ImageIcon card = Kartenspiel[pos].pic;
             int nr = Kartenspiel[pos].nr;
             pos++;
-
             if(Runde == 1)
             {
                 pos1.setIcon(card);
