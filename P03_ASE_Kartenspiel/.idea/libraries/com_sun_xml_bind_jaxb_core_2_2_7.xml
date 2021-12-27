@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.sun.xml.bind:jaxb-core:2.2.7" type="repository">
+    <properties maven-id="com.sun.xml.bind:jaxb-core:2.2.7" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jaxb-core-2.2.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxb-api-2.2.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/istack-commons-runtime-2.16.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

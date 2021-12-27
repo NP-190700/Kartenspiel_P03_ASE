@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.cardgame.MainForm">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="5" column-count="10" same-size-horizontally="false" same-size-vertically="false" hgap="5" vgap="5">
+    <margin top="15" left="15" bottom="10" right="15"/>
+    <constraints>
+      <xy x="20" y="20" width="674" height="404"/>
+    </constraints>
+    <properties>
+      <background color="-15960576"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="cbb9e" class="javax.swing.JLabel" binding="stapel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="2" use-parent-layout="false">
+            <minimum-size width="120" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <icon value="com/cardgame/res/deck.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="88b0e" class="javax.swing.JButton" binding="cardNext">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="120" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Gill Sans Ultra Bold"/>
+          <text value="Neue Karte"/>
+        </properties>
+      </component>
+      <component id="5273d" class="javax.swing.JLabel" binding="pos1">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="com/cardgame/res/deck.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <grid id="6ee31" binding="Frage1" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="120" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-8882056"/>
+        </properties>
+        <border type="line" title="Frage1: Farbe">
+          <color color="-4473925"/>
+        </border>
+        <children>
+          <component id="ad260" class="javax.swing.JRadioButton" binding="redRadio">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Rot"/>
+            </properties>
+          </component>
+          <hspacer id="285d">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="30" height="-1"/>
+              </grid>
+            </constraints>
+          </hspacer>
+          <component id="ef242" class="javax.swing.JRadioButton" binding="blackRadio">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Schwarz"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="189f3" binding="Frage2" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="120" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <foreground color="-8882056"/>
+        </properties>
+        <clientProperties>
+          <html.disable class="java.lang.Boolean" value="false"/>
+        </clientProperties>
+        <border type="line" title="Frage2: Größe">
+          <color color="-4473925"/>
+        </border>
+        <children>
+          <component id="ddaa4" class="javax.swing.JRadioButton" binding="biggerRadio">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <text value="größer"/>
+            </properties>
+          </component>
+          <hspacer id="d1d3a">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="71777" class="javax.swing.JRadioButton" binding="smallerRadio">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <text value="kleiner"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="2a600" class="javax.swing.JLabel" binding="pos2">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="com/cardgame/res/deck.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="11644" class="javax.swing.JLabel" binding="pos3">
+        <constraints>
+          <grid row="0" column="7" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="120" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="com/cardgame/res/deck.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <grid id="32c22" binding="Frage3" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="7" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="120" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-8882056"/>
+        </properties>
+        <border type="line" title="Frage3: Position">
+          <color color="-4473925"/>
+        </border>
+        <children>
+          <component id="5d1d" class="javax.swing.JRadioButton" binding="innenRadioButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="innen"/>
+            </properties>
+          </component>
+          <component id="ac81" class="javax.swing.JRadioButton" binding="aussenRadioButton">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="außen"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="36bcb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="verloren:"/>
+        </properties>
+      </component>
+      <component id="ea460" class="javax.swing.JLabel" binding="lost">
+        <constraints>
+          <grid row="4" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="lost"/>
+        </properties>
+      </component>
+      <vspacer id="9aa6f">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <vspacer id="9a2ae">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="467ee" class="javax.swing.JLabel" binding="pos4">
+        <constraints>
+          <grid row="0" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="com/cardgame/res/deck.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <grid id="e9b26" binding="Frage4" layout-manager="GridLayoutManager" row-count="7" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="9" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="120" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-8882056"/>
+        </properties>
+        <border type="none" title="Frage 4: Farbe"/>
+        <children>
+          <component id="1e291" class="javax.swing.JRadioButton" binding="KaroRadioButton">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Karo"/>
+            </properties>
+          </component>
+          <hspacer id="65105">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="9bcef" class="javax.swing.JRadioButton" binding="HerzRerzRadioButton">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Herz"/>
+            </properties>
+          </component>
+          <hspacer id="7670c">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="eee9c" class="javax.swing.JRadioButton" binding="PikRadioButton">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Pik"/>
+            </properties>
+          </component>
+          <hspacer id="63bcd">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="3ce2c" class="javax.swing.JRadioButton" binding="KreuzRadioButton">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Kreuz"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="671c1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="gewonnen:"/>
+        </properties>
+      </component>
+      <component id="7140f" class="javax.swing.JLabel" binding="won">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="won"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="Frage1">
+      <member id="ad260"/>
+      <member id="ef242"/>
+    </group>
+    <group name="Frage2">
+      <member id="ddaa4"/>
+      <member id="71777"/>
+    </group>
+    <group name="Frage3">
+      <member id="5d1d"/>
+      <member id="ac81"/>
+    </group>
+  </buttonGroups>
+</form>
